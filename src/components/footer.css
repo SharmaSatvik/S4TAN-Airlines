@@ -1,0 +1,59 @@
+.logo {
+    font-size: 30px;
+    padding-left: 100px;
+    padding-top: 50px;
+    color: #2970db;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.list {
+    margin-left: -70px;
+    margin-top: 20px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.email {
+    height: 42px;
+    width: 250px;
+    outline: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 2px solid #2970db;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.subs {
+    height: 42px;
+    outline: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 2px solid #2970db;
+    background-color: #2970db;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.subs:hover {
+    background-color: #fff;
+    color: #2970db;
+}

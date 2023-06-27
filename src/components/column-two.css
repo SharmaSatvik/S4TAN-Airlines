@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.heading {
+    font-size: 45px;
+    width: 70%;
+    font-weight: bold;
+}
+
+.sub-heading {
+    font-size: 22px;
+    letter-spacing: -1px;
+}
+
+.card {
+    background-color: #2970db;
+    padding: 20px;
+    color: #fff;
+    margin-top: 69px;
+    font-size: 20px;
+}
+
+li {
+    margin: 30px;
+}

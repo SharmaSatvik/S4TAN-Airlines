@@ -1,0 +1,49 @@
+.cont {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f2f6f8;
+    height: 600px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.m-w {
+    width: 300px;
+    background-color: #fff;
+    padding: 40px;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+
+.quote {
+    width: 80px;
+}
+
+.persons {
+    border-radius: 150px;
+    width: 70px;
+}
+
+.person {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: -100px;
+}
+
+.xt {
+    position: relative;
+    bottom: -130px;
+}
+
+.mains {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.heads {
+    background-color: #f2f6f8;
+    font-size: 55px;
+    padding-top: 50px;
+    text-align: center;
+}

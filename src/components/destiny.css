@@ -1,0 +1,143 @@
+.head {
+    font-size: 55px;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 500;
+}
+
+.grid {
+    display: grid;
+    margin-top: 50px;
+    gap: 50px;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.items {
+    overflow: hidden;
+}
+
+.item-1 {
+    background-image: url('assets/asia.jpg');
+    width: 400px;
+    height: 300px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.item-1:hover {
+    transform: scale(1.2);
+}
+
+.item-1::after {
+    content: 'ASIA';
+    position: absolute;
+    color: none;
+    font-size: 20px;
+    width: auto;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffffcc;
+}
+
+.item-2 {
+    background-image: url('assets/america.jpg');
+    width: 400px;
+    height: 300px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.item-2:hover {
+    transform: scale(1.2);
+}
+
+.item-2::after {
+    content: 'AMERICA';
+    position: absolute;
+    color: none;
+    font-size: 20px;
+    width: auto;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffffcc;
+}
+
+.item-3 {
+    background-image: url('assets/europe.jpg');
+    width: 400px;
+    height: 300px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.item-3:hover {
+    transform: scale(1.2);
+}
+
+.item-3::after {
+    content: 'EUROPE';
+    position: absolute;
+    color: none;
+    font-size: 20px;
+    width: auto;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffffcc;
+}
+
+.text-inside {
+    color: none;
+    font-size: 20px;
+    width: auto;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffffcc;
+}
+
+.flx {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #2970db;
+    padding: 20px 60px;
+    margin: 30px auto;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 50px;
+    transition: 0.2s;
+    cursor: pointer;
+    border: 2px solid #2970db;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #2970db;
+    border: 2px solid #2970db;
+}
